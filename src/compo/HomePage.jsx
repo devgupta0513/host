@@ -6,8 +6,8 @@ const HomePage = () => {
   const fetchMsg = async () => {
     try{
       const {data} = await axios.get('/homepage');
-      console.log(data.name);
-      setHome(data.name)
+      console.log(data.fullName);
+      setHome(data.fullName)
     }
     
     catch(e)
