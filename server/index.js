@@ -19,6 +19,6 @@ app.use("/",api)
 
 app.get('/',(req,res)=>{
     res.status(200).json({
-        "fullName":"DEV GUPTA",
+        "fullName":"HOSTING APP",
     })
 })
