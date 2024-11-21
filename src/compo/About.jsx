@@ -6,7 +6,7 @@ const About = () =>{
   const clickHandler =async()=>{
     try{
       const {data} = await axios.get("/about")
-
+      
 
       setmsg(data.name)
     }
